@@ -1,4 +1,4 @@
 {
   "name": "n-jsonp",
-  "main": "client/main.js"
+  "main": "build-client/main.js"
 }
