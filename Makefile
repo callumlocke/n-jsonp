@@ -18,3 +18,6 @@ test: verify unit-test
 
 build:
 	babel --plugins transform-es2015-modules-commonjs -d ./build ./server
+	
+build-client:
+	babel --plugins transform-es2015-modules-commonjs -d ./build-client ./client
